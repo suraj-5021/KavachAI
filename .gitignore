@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*/.venv/
+*.egg-info/
+.pytest_cache/
+**/.pytest_cache/
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+frontend/dist/
+.cache/
+
+# Local Environment & Secrets
+.env
+.env.*
+*.env
+.env.local
+
+# Models (too large for git hosting > 100MB per file; ~682MB total)
+backend/models/whisper-*/
+
+# Generated temporary audio / test files
+samples/*.wav
+samples/*.mp3
+*.tmp
+*.temp
+
+# IDE & Editor temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
